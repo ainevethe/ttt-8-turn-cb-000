@@ -13,6 +13,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  move = gets.chomp.to_i
 end
 
 def position_taken?(board, index)
