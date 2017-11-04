@@ -24,12 +24,6 @@ def valid_move?(board, index)
   end
 end
 
-
-def valid_move?
-
-end
-
-
 def move(board, position, character="X")
   board[position] = character
 end
