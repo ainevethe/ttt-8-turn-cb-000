@@ -13,10 +13,10 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  user_input = gets.chomp.to_i
-  index = input_to_index(user_input)
+  input = gets.chomp.to_i
+  index = input_to_index(input)
   if valid_move?(board, index)
-    move(board, position, character="X")
+    move(board, position, "X")
     display_board(board)
   else turn(board)
   end
